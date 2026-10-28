@@ -1,0 +1,8 @@
+order,item,qty,description,purpose,supplier,supplier_part,unit_price_nzd,total_nzd,status,notes
+1,Nucleo-L432KC,2,STM32L432KC Nucleo-32 dev board,"Remote node + receiver",,,,,to order,"Second board is the receiver; counts toward NZ$200 budget"
+1,SX1262 LoRa breakout 915 MHz,2,SPI SX1262 module on breakout,"Node + receiver radio",,,,,to order,"Must expose NSS SCK MISO MOSI BUSY DIO1 NRST; check RF switch (TXEN/RXEN/DIO2) and TCXO (DIO3) control from schematic before buying; confirm band suits NZ licence"
+1,915 MHz antenna,2,Antenna + pigtail/connector matching breakout (u.FL/IPEX or SMA),"Node + receiver",,,,,to order,"Never transmit without an antenna fitted; antenna gain counts toward EIRP limit"
+1,BME280 breakout,1,"Genuine BME280 (T/RH/P), I2C, 3.3 V",Node sensor,,,,,to order,"Not BMP280 (no humidity); check I2C address jumper"
+1,Breadboard + jumper wires,1,Full-size breadboard and M-M / M-F jumpers,Prototyping,,,,,to order,Skip if already owned
+1,Micro-USB data cable,2,USB-A or USB-C to Micro-B (data-capable),"Programming + receiver VCP",,,,,to order,"Nucleo-32 ST-LINK uses Micro-B (TODO(verify) against board revision); skip if owned"
+1,Pin headers,1,2.54 mm male headers,Breakout soldering,,,,,to order,"Only if breakouts ship without headers"
