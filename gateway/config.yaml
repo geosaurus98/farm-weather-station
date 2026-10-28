@@ -1,0 +1,12 @@
+serial:
+  port: /dev/ttyACM0     # ST-LINK VCP on Linux; COMx on Windows
+  baudrate: 115200       # TODO(verify): must match receiver firmware
+
+storage:
+  db_path: weather.db
+
+rain:
+  mm_per_tip: 0.2        # placeholder; calibrate the actual gauge
+
+logging:
+  level: INFO
