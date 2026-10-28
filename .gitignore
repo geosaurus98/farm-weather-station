@@ -1,0 +1,44 @@
+# --- STM32CubeIDE / Eclipse build output ---
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.elf
+*.map
+*.list
+*.bin
+*.hex
+.metadata/
+.settings/language.settings.xml
+*.launch.bak
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# --- Local data ---
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
